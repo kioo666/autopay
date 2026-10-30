@@ -1,0 +1,21 @@
+{
+  "name": "Alight Motion",
+  "signup_url": "https://alightmotion.com/",
+  "trial_url": "https://alightmotion.com/",
+  "terms_url": "https://support.alightmotion.com/hc/en-us/articles/10537456625681-How-do-I-subscribe-to-Alight-Motion",
+  "eligibility_url": "https://alightmotion.com/",
+  "allowed_hosts": [
+    "alightmotion.com"
+  ],
+  "verification_hosts": [
+    "alightmotion.com"
+  ],
+  "reviewed": false,
+  "duration": "Depends on official account offer",
+  "policy": {
+    "automation": "unknown",
+    "reason": "Subscription options are handled inside the mobile app through Google Play/App Store. This web engine cannot confirm account/store eligibility or activate an in-app trial.",
+    "source_url": "https://support.alightmotion.com/hc/en-us/articles/10537456625681-How-do-I-subscribe-to-Alight-Motion",
+    "reviewed_on": "2026-10-30"
+  }
+}

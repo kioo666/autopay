@@ -1,0 +1,85 @@
+{
+  "name": "Example \u2014 replace with a real reviewed platform",
+  "reviewed": false,
+  "signup_url": "https://example.com/signup",
+  "trial_url": "https://example.com/trial",
+  "terms_url": "https://example.com/terms",
+  "allowed_hosts": [
+    "example.com"
+  ],
+  "verification_hosts": [
+    "example.com"
+  ],
+  "senders": [
+    "verify@example.com"
+  ],
+  "subject_pattern": "verify|verification",
+  "otp_pattern": "(?i)(?:code|OTP)[: ]+([0-9]{6})",
+  "verification_mode": "link",
+  "duration": "Confirm from official terms",
+  "no_payment_required": false,
+  "block_selectors": [
+    "iframe[src*='recaptcha']",
+    "iframe[src*='hcaptcha']",
+    "input[autocomplete='cc-number']",
+    "[data-payment]",
+    "[data-sensitive-consent]",
+    "[data-ineligible]"
+  ],
+  "registration": [
+    {
+      "action": "fill",
+      "selector": "input[name=name]",
+      "value": "name"
+    },
+    {
+      "action": "fill",
+      "selector": "input[type=email]",
+      "value": "email"
+    },
+    {
+      "action": "fill",
+      "selector": "input[type=password]",
+      "value": "password"
+    },
+    {
+      "action": "click",
+      "selector": "button[type=submit]",
+      "reviewed_safe": true
+    }
+  ],
+  "registration_success": "[data-registration-created]",
+  "verification_success": "[data-email-verified]",
+  "otp_steps": [
+    {
+      "action": "fill",
+      "selector": "input[name=otp]",
+      "value": "otp"
+    },
+    {
+      "action": "click",
+      "selector": "button[data-verify]",
+      "reviewed_safe": true
+    }
+  ],
+  "trial_evidence": "[data-free-trial-eligible]",
+  "activation": [
+    {
+      "action": "click",
+      "selector": "button[data-start-free-trial]",
+      "reviewed_safe": true
+    }
+  ],
+  "trial_success": "[data-trial-active]",
+  "eligibility_url": "https://example.com/trial",
+  "eligibility_timing": "after_verification",
+  "eligibility_selector": "[data-free-trial-eligible]",
+  "ineligible_selector": "[data-ineligible]",
+  "ineligible_reason": "The official offer indicates this account is not eligible",
+  "policy": {
+    "automation": "unknown",
+    "reason": "No platform automation permission reviewed",
+    "source_url": "https://example.com/terms",
+    "reviewed_on": ""
+  }
+}

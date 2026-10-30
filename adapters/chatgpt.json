@@ -1,0 +1,21 @@
+{
+  "name": "ChatGPT",
+  "signup_url": "https://chatgpt.com/",
+  "trial_url": "https://chatgpt.com/",
+  "terms_url": "https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq",
+  "eligibility_url": "https://chatgpt.com/",
+  "allowed_hosts": [
+    "chatgpt.com"
+  ],
+  "verification_hosts": [
+    "chatgpt.com"
+  ],
+  "reviewed": false,
+  "duration": "Depends on official account offer",
+  "policy": {
+    "automation": "unknown",
+    "reason": "A universal trial is not assumed. Promotional offers depend on invitation, campaign and account eligibility. No reviewed registration/activation adapter is enabled.",
+    "source_url": "https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq",
+    "reviewed_on": "2026-10-30"
+  }
+}

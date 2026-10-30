@@ -1,0 +1,21 @@
+{
+  "name": "CapCut",
+  "signup_url": "https://www.capcut.com/",
+  "trial_url": "https://www.capcut.com/",
+  "terms_url": "https://www.capcut.com/clause/terms-of-service",
+  "eligibility_url": "https://www.capcut.com/",
+  "allowed_hosts": [
+    "www.capcut.com"
+  ],
+  "verification_hosts": [
+    "www.capcut.com"
+  ],
+  "reviewed": false,
+  "duration": "Depends on official account offer",
+  "policy": {
+    "automation": "forbidden",
+    "reason": "Official terms prohibit automated scripts interacting with the Services. Automation disabled.",
+    "source_url": "https://www.capcut.com/clause/terms-of-service",
+    "reviewed_on": "2026-10-30"
+  }
+}

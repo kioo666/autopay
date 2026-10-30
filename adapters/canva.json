@@ -1,0 +1,21 @@
+{
+  "name": "Canva",
+  "signup_url": "https://www.canva.com/",
+  "trial_url": "https://www.canva.com/",
+  "terms_url": "https://www.canva.com/policies/terms-of-use/",
+  "eligibility_url": "https://www.canva.com/",
+  "allowed_hosts": [
+    "www.canva.com"
+  ],
+  "verification_hosts": [
+    "www.canva.com"
+  ],
+  "reviewed": false,
+  "duration": "Depends on official account offer",
+  "policy": {
+    "automation": "unknown",
+    "reason": "No reviewed automation permission or account-specific trial eligibility has been confirmed. Use official flow manually until an authorized adapter is reviewed.",
+    "source_url": "https://www.canva.com/policies/terms-of-use/",
+    "reviewed_on": "2026-10-30"
+  }
+}
